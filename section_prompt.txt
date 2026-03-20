@@ -1,0 +1,37 @@
+Write the following sections of the article.
+
+Main topic: {TOPIC}
+
+Section: {SECTION}
+
+Writing style:
+{STYLE}
+
+Writing guidelines:
+
+- Use clear and informative English
+- Keep the text around 120–180 words
+- Use neat paragraphs
+- Avoid repetition
+- Focus only on the discussion of this section
+- Use examples when necessary
+- Use easy-to-understand explanations
+
+If there are mathematical, physical, or engineering concepts:
+- Display formulas using LaTeX format
+- Inline equations use $...$
+- Block equations use:
+
+$$
+formula
+$$
+
+- Explain the meaning of the variables in the formula
+
+Markdown format:
+
+- Do not rewrite the section title
+- Do not rewrite the article title
+- Use normal paragraphs
+- Use bullet lists if necessary
+- Keep the Markdown structure neat

@@ -1,0 +1,16 @@
+Create an article outline about: {TOPIC}
+
+Requirements:
+- Articles must be written in English
+- Create 4 to 6 sections
+- Remember maximum just 6 sections.
+- Each section must contain only a short title
+- Do not use numbering
+- Do not write the article title
+- Do not add explanations
+- One section per line
+- Avoid repeating sections
+- Use clear and informative titles
+
+Output format:
+Only list the sections, one line per section.

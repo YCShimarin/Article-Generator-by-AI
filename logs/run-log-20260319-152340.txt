@@ -1,0 +1,928 @@
+[2026-03-19 15:23:40] ========== AI ARTICLE GENERATOR START ==========
+[2026-03-19 15:23:40] 
+=== CHOOSE MODEL ===
+[2026-03-19 15:23:40] 1. Gemma 12B
+[2026-03-19 15:23:40] 2. Gemma 4B
+[2026-03-19 15:23:40] 3. StepFun
+[2026-03-19 15:23:41] 
+🔍 Testing model: stepfun/step-3.5-flash:free
+
+[2026-03-19 15:23:41] 🔌 Testing connection...
+[2026-03-19 15:23:41] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:23:46] 📡 HTTP Status: 200
+[2026-03-19 15:23:46] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=15 | completion_tokens=51 | total_tokens=66
+[2026-03-19 15:23:46] Response: Hello! 👋
+[2026-03-19 15:23:46] ✅ Connection OK
+
+[2026-03-19 15:23:46] 🚀 Ready to use model!
+
+[2026-03-19 15:23:46] 🚀 Start generating articles...
+
+[2026-03-19 15:23:46] 📚 Total topics: 17
+[2026-03-19 15:23:46] 
+==============================
+[2026-03-19 15:23:46] 📌 Topic Progress: 1/17
+[2026-03-19 15:23:46] 📌 Topic: What Makes a Model “Learn”? A Beginner-Friendly Explanation
+[2026-03-19 15:23:46] ==============================
+[2026-03-19 15:23:46] 
+📌 Generating article: What Makes a Model “Learn”? A Beginner-Friendly Explanation
+[2026-03-19 15:23:46] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:23:55] 📡 HTTP Status: 200
+[2026-03-19 15:23:55] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=110 | completion_tokens=555 | total_tokens=665
+[2026-03-19 15:23:55] 🧩 Outline generated | total_sections=6
+[2026-03-19 15:23:55]    1. Defining Machine Learning
+[2026-03-19 15:23:55]    2. The Importance of Quality Data
+[2026-03-19 15:23:55]    3. The Iterative Learning Process
+[2026-03-19 15:23:55]    4. Understanding Loss Functions
+[2026-03-19 15:23:55]    5. Optimization Techniques
+[2026-03-19 15:23:55]    6. Real-World Applications
+[2026-03-19 15:23:55] ✍️ [1/6] Writing section: Defining Machine Learning
+[2026-03-19 15:23:55] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:23:57] 📡 HTTP Status: 429
+[2026-03-19 15:23:57] ❌ API ERROR | code=429 | message=Provider returned error
+[2026-03-19 15:23:57] 🚫 Rate limit hit! (1/5)
+[2026-03-19 15:23:57] ⏳ Forced delay 10 seconds...
+
+[2026-03-19 15:24:07] 🌐 API CALL | attempt=2/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:24:24] 📡 HTTP Status: 200
+[2026-03-19 15:24:24] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=248 | completion_tokens=791 | total_tokens=1039
+[2026-03-19 15:24:24] 📝 Section done | section=1/6 | words=216 | time=28s
+[2026-03-19 15:24:24] ⏳ Delay 8.8s
+
+[2026-03-19 15:24:33] ✍️ [2/6] Writing section: The Importance of Quality Data
+[2026-03-19 15:24:33] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:24:44] 📡 HTTP Status: 200
+[2026-03-19 15:24:44] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=250 | completion_tokens=505 | total_tokens=755
+[2026-03-19 15:24:44] 📝 Section done | section=2/6 | words=186 | time=10s
+[2026-03-19 15:24:44] ⏳ Delay 8.4s
+
+[2026-03-19 15:24:52] ✍️ [3/6] Writing section: The Iterative Learning Process
+[2026-03-19 15:24:52] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:25:04] 📡 HTTP Status: 200
+[2026-03-19 15:25:04] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=250 | completion_tokens=585 | total_tokens=835
+[2026-03-19 15:25:04] 📝 Section done | section=3/6 | words=185 | time=12s
+[2026-03-19 15:25:04] ⏳ Delay 9.1s
+
+[2026-03-19 15:25:13] ✍️ [4/6] Writing section: Understanding Loss Functions
+[2026-03-19 15:25:13] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:25:23] 📡 HTTP Status: 200
+[2026-03-19 15:25:23] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=248 | completion_tokens=770 | total_tokens=1018
+[2026-03-19 15:25:23] 📝 Section done | section=4/6 | words=203 | time=9s
+[2026-03-19 15:25:23] ⏳ Delay 11.1s
+
+[2026-03-19 15:25:34] ✍️ [5/6] Writing section: Optimization Techniques
+[2026-03-19 15:25:34] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:25:53] 📡 HTTP Status: 200
+[2026-03-19 15:25:53] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=247 | completion_tokens=968 | total_tokens=1215
+[2026-03-19 15:25:53] 📝 Section done | section=5/6 | words=218 | time=18s
+[2026-03-19 15:25:53] ⏳ Delay 8.5s
+
+[2026-03-19 15:26:01] ✍️ [6/6] Writing section: Real-World Applications
+[2026-03-19 15:26:01] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:26:22] 📡 HTTP Status: 200
+[2026-03-19 15:26:22] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=248 | completion_tokens=543 | total_tokens=791
+[2026-03-19 15:26:22] 📝 Section done | section=6/6 | words=200 | time=20s
+[2026-03-19 15:26:22] ⏳ Delay 9.3s
+
+[2026-03-19 15:26:32] ✅ Article complete | topic=What Makes a Model “Learn”? A Beginner-Friendly Explanation | words=1237 | total_time=2m 45s
+[2026-03-19 15:26:32] 💾 Markdown saved: output\what-makes-a-model-“learn”-a-beginner-friendly-explanation.md
+[2026-03-19 15:26:32] ✅ Saved: What Makes a Model “Learn”? A Beginner-Friendly Explanation
+[2026-03-19 15:26:32] 
+==============================
+[2026-03-19 15:26:32] 📌 Topic Progress: 2/17
+[2026-03-19 15:26:32] 📌 Topic: Why More Data Does Not Always Mean Better AI
+[2026-03-19 15:26:32] ==============================
+[2026-03-19 15:26:32] 
+📌 Generating article: Why More Data Does Not Always Mean Better AI
+[2026-03-19 15:26:32] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:26:41] 📡 HTTP Status: 200
+[2026-03-19 15:26:41] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=108 | completion_tokens=641 | total_tokens=749
+[2026-03-19 15:26:41] 🧩 Outline generated | total_sections=5
+[2026-03-19 15:26:41]    1. Quality Over Quantity
+[2026-03-19 15:26:41]    2. Diminishing Returns in AI
+[2026-03-19 15:26:41]    3. Bias Amplification
+[2026-03-19 15:26:41]    4. Computational Costs
+[2026-03-19 15:26:41]    5. Data Diversity Necessity
+[2026-03-19 15:26:41] ✍️ [1/5] Writing section: Quality Over Quantity
+[2026-03-19 15:26:41] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:26:53] 📡 HTTP Status: 200
+[2026-03-19 15:26:53] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=246 | completion_tokens=679 | total_tokens=925
+[2026-03-19 15:26:53] 📝 Section done | section=1/5 | words=181 | time=11s
+[2026-03-19 15:26:53] ⏳ Delay 11.1s
+
+[2026-03-19 15:27:04] ✍️ [2/5] Writing section: Diminishing Returns in AI
+[2026-03-19 15:27:04] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:27:16] 📡 HTTP Status: 200
+[2026-03-19 15:27:16] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=249 | completion_tokens=688 | total_tokens=937
+[2026-03-19 15:27:16] 📝 Section done | section=2/5 | words=169 | time=12s
+[2026-03-19 15:27:16] ⏳ Delay 11.4s
+
+[2026-03-19 15:27:28] ✍️ [3/5] Writing section: Bias Amplification
+[2026-03-19 15:27:28] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:27:45] 📡 HTTP Status: 200
+[2026-03-19 15:27:45] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=246 | completion_tokens=799 | total_tokens=1045
+[2026-03-19 15:27:45] 📝 Section done | section=3/5 | words=198 | time=17s
+[2026-03-19 15:27:45] ⏳ Delay 9.4s
+
+[2026-03-19 15:27:55] ✍️ [4/5] Writing section: Computational Costs
+[2026-03-19 15:27:55] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:28:23] 📡 HTTP Status: 200
+[2026-03-19 15:28:23] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=245 | completion_tokens=1200 | total_tokens=1445
+[2026-03-19 15:28:23] 📝 Section done | section=4/5 | words=77 | time=27s
+[2026-03-19 15:28:23] ⏳ Delay 9.5s
+
+[2026-03-19 15:28:32] ✍️ [5/5] Writing section: Data Diversity Necessity
+[2026-03-19 15:28:32] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:28:44] 📡 HTTP Status: 200
+[2026-03-19 15:28:44] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=247 | completion_tokens=632 | total_tokens=879
+[2026-03-19 15:28:44] 📝 Section done | section=5/5 | words=202 | time=11s
+[2026-03-19 15:28:44] ⏳ Delay 9.9s
+
+[2026-03-19 15:28:54] ✅ Article complete | topic=Why More Data Does Not Always Mean Better AI | words=850 | total_time=2m 22s
+[2026-03-19 15:28:54] 💾 Markdown saved: output\why-more-data-does-not-always-mean-better-ai.md
+[2026-03-19 15:28:54] ✅ Saved: Why More Data Does Not Always Mean Better AI
+[2026-03-19 15:28:54] 
+==============================
+[2026-03-19 15:28:54] 📌 Topic Progress: 3/17
+[2026-03-19 15:28:54] 📌 Topic: Overfitting in Machine Learning: When a Model Memorizes Instead of Learns
+[2026-03-19 15:28:54] ==============================
+[2026-03-19 15:28:54] 
+📌 Generating article: Overfitting in Machine Learning: When a Model Memorizes Instead of Learns
+[2026-03-19 15:28:54] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:29:10] 📡 HTTP Status: 200
+[2026-03-19 15:29:10] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=114 | completion_tokens=1200 | total_tokens=1314
+[2026-03-19 15:29:10] 🧩 Outline generated | total_sections=100
+[2026-03-19 15:29:10]    1. First, the user wants an article outline about "Overfitting in Machine Learning: When a Model Memorizes Instead of Learns". I need to create 4 to 6 sections.
+[2026-03-19 15:29:10]    2. Requirements:
+[2026-03-19 15:29:10]    3. - Articles must be written in English: So all section titles should be in English.
+[2026-03-19 15:29:10]    4. - Create 4 to 6 sections: I need to decide on the number. Since it says "4 to 6", I'll aim for 5 sections to be safe, but I can choose 4 or 6 if needed. Let's think about what sections would be logical for this topic.
+[2026-03-19 15:29:10]    5. - Each section must contain only a short title: So just the title, no explanations or subtitles.
+[2026-03-19 15:29:10]    6. - Do not use numbering: So no numbers like 1, 2, 3. Just plain titles.
+[2026-03-19 15:29:10]    7. - Do not write the article title: I'm not supposed to include the main title of the article. Only the section titles.
+[2026-03-19 15:29:10]    8. - Do not add explanations: Just the titles, no descriptions.
+[2026-03-19 15:29:10]    9. - One section per line: Output should have each section on a separate line.
+[2026-03-19 15:29:10]    10. - Avoid repeating sections: Make sure each section is unique and covers different aspects.
+[2026-03-19 15:29:10]    11. - Use clear and informative titles: Titles should be clear and convey what the section is about.
+[2026-03-19 15:29:10]    12. Output format: Only list the sections, one line per section. So my response should be a list of titles, each on a new line.
+[2026-03-19 15:29:10]    13. Now, brainstorming sections for an article on overfitting in machine learning. The topic is about when a model memorizes instead of learns, so I need to cover key aspects like definition, causes, detection, prevention, and consequences.
+[2026-03-19 15:29:10]    14. Possible sections:
+[2026-03-19 15:29:10]    15. 1. Introduction to Overfitting – but I can't write the article title, and this might be too vague. I need short, informative titles.
+[2026-03-19 15:29:10]    16. 2. What is Overfitting? – but that might be too direct. Since the article title already mentions it, I can have a section that defines it.
+[2026-03-19 15:29:10]    17. 3. Causes of Overfitting
+[2026-03-19 15:29:10]    18. 4. How to Detect Overfitting
+[2026-03-19 15:29:10]    19. 5. Techniques to Prevent Overfitting
+[2026-03-19 15:29:10]    20. 6. The Impact of Overfitting on Model Performance
+[2026-03-19 15:29:10]    21. 7. Balancing Bias and Variance
+[2026-03-19 15:29:10]    22. 8. Real-World Examples
+[2026-03-19 15:29:10]    23. I need 4 to 6 sections. Let's list out 5 sections that are clear and informative.
+[2026-03-19 15:29:10]    24. Ensure titles are short: So keep them concise, like "Understanding Overfitting" or "Prevention Strategies".
+[2026-03-19 15:29:10]    25. Avoid repetition: Each section should have a distinct focus.
+[2026-03-19 15:29:10]    26. Finalize a list:
+[2026-03-19 15:29:10]    27. - Introduction to Overfitting (but "Introduction" might not be informative enough; better to be specific)
+[2026-03-19 15:29:10]    28. - Defining Overfitting in Machine Learning
+[2026-03-19 15:29:10]    29. - Common Causes of Model Memorization
+[2026-03-19 15:29:10]    30. - Methods for Identifying Overfitting
+[2026-03-19 15:29:10]    31. - Strategies to Avoid Overfitting
+[2026-03-19 15:29:10]    32. - Consequences of Overfitting
+[2026-03-19 15:29:10]    33. That's 6 sections. But I need 4 to 6, so 6 is acceptable. But let's see if I can condense or make it 5.
+[2026-03-19 15:29:10]    34. Refine:
+[2026-03-19 15:29:10]    35. 1. What is Overfitting?
+[2026-03-19 15:29:10]    36. 2. Why Models Overfit
+[2026-03-19 15:29:10]    37. 3. Detecting Overfitting
+[2026-03-19 15:29:10]    38. 4. Preventing Overfitting
+[2026-03-19 15:29:10]    39. 5. Effects of Overfitting
+[2026-03-19 15:29:10]    40. These are short and clear. But "What is Overfitting?" might be too simple. Since the article title is given, I can assume readers know the basics, but for an outline, it's fine.
+[2026-03-19 15:29:10]    41. Make titles more informative:
+[2026-03-19 15:29:10]    42. - The Nature of Overfitting
+[2026-03-19 15:29:10]    43. - Root Causes of Memorization
+[2026-03-19 15:29:10]    44. - Signs of Overfitting in Models
+[2026-03-19 15:29:10]    45. - Mitigation Techniques
+[2026-03-19 15:29:10]    46. - Real-World Implications
+[2026-03-19 15:29:10]    47. But "The Nature of Overfitting" might not be as clear. I should use straightforward titles.
+[2026-03-19 15:29:10]    48. User said "Use clear and informative titles", so titles like "Understanding Overfitting" or "Causes of Overfitting" are good.
+[2026-03-19 15:29:10]    49. List 5 sections:
+[2026-03-19 15:29:10]    50. 1. Defining Overfitting
+[2026-03-19 15:29:10]    51. 2. Factors Leading to Overfitting
+[2026-03-19 15:29:10]    52. 3. Diagnosing Overfitting
+[2026-03-19 15:29:10]    53. 4. Preventing Overfitting
+[2026-03-19 15:29:10]    54. 5. Impact on Machine Learning Projects
+[2026-03-19 15:29:10]    55. That seems balanced.
+[2026-03-19 15:29:10]    56. Now, ensure no numbering: Just list them one per line.
+[2026-03-19 15:29:10]    57. Output format: Only the sections, so no additional text.
+[2026-03-19 15:29:10]    58. So, my response should be:
+[2026-03-19 15:29:10]    59. Defining Overfitting
+[2026-03-19 15:29:10]    60. Factors Leading to Overfitting
+[2026-03-19 15:29:10]    61. Diagnosing Overfitting
+[2026-03-19 15:29:10]    62. Preventing Overfitting
+[2026-03-19 15:29:10]    63. Impact on Machine Learning Projects
+[2026-03-19 15:29:10]    64. But I need to check if these are distinct and cover the topic. "Impact on Machine Learning Projects" might be vague; better "Consequences of Overfitting".
+[2026-03-19 15:29:10]    65. Adjust:
+[2026-03-19 15:29:10]    66. - What is Overfitting?
+[2026-03-19 15:29:10]    67. - Causes of Overfitting
+[2026-03-19 15:29:10]    68. - Detection Methods
+[2026-03-19 15:29:10]    69. - Prevention Strategies
+[2026-03-19 15:29:10]    70. - Consequences and Solutions
+[2026-03-19 15:29:10]    71. But "Consequences and Solutions" might combine two things. Better to keep separate if possible, but I have only 4-6 sections.
+[2026-03-19 15:29:10]    72. I think 5 sections is good. Let's finalize:
+[2026-03-19 15:29:10]    73. 1. Understanding Overfitting
+[2026-03-19 15:29:10]    74. 2. Common Causes
+[2026-03-19 15:29:10]    75. 3. Detection Techniques
+[2026-03-19 15:29:10]    76. 4. Prevention Methods
+[2026-03-19 15:29:10]    77. 5. Real-World Effects
+[2026-03-19 15:29:10]    78. But "Understanding Overfitting" is similar to "What is Overfitting?" – I'll use "Defining Overfitting" to be precise.
+[2026-03-19 15:29:10]    79. To avoid repetition, ensure each title is unique.
+[2026-03-19 15:29:10]    80. Final list:
+[2026-03-19 15:29:10]    81. - Defining Overfitting in ML
+[2026-03-19 15:29:10]    82. - Why Models Memorize Data
+[2026-03-19 15:29:10]    83. - How to Spot Overfitting
+[2026-03-19 15:29:10]    84. - Ways to Reduce Overfitting
+[2026-03-19 15:29:10]    85. - The Cost of Overfitting
+[2026-03-19 15:29:10]    86. These are short and informative.
+[2026-03-19 15:29:10]    87. Now, write them one per line without any other text.
+[2026-03-19 15:29:10]    88. So, output:
+[2026-03-19 15:29:10]    89. Defining Overfitting in Machine Learning
+[2026-03-19 15:29:10]    90. Why Models Memorize Instead of Learn
+[2026-03-19 15:29:10]    91. Detecting Overfitting Early
+[2026-03-19 15:29:10]    92. Effective Prevention Techniques
+[2026-03-19 15:29:10]    93. Consequences for Model Deployment
+[2026-03-19 15:29:10]    94. But "Why Models Memorize Instead of Learn" directly references the article title, which might be okay, but I should keep titles general.
+[2026-03-19 15:29:10]    95. Since the article title is "Overfitting in Machine Learning: When a Model Memorizes Instead of Learns", I can use titles that align but not copy.
+[2026-03-19 15:29:10]    96. Use:
+[2026-03-19 15:29:10]    97. - Introduction to Overfitting
+[2026-03-19 15:29:10]    98. - Causes of Memorization
+[2026-03-19 15:29:10]    99. - Identifying Overfitting
+[2026-03-19 15:29:10]    100. - Mit
+[2026-03-19 15:29:10] ✍️ [1/100] Writing section: First, the user wants an article outline about "Overfitting in Machine Learning: When a Model Memorizes Instead of Learns". I need to create 4 to 6 sections.
+[2026-03-19 15:29:10] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:29:27] 📡 HTTP Status: 200
+[2026-03-19 15:29:27] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=285 | completion_tokens=1200 | total_tokens=1485
+[2026-03-19 15:29:27] 📝 Section done | section=1/100 | words=484 | time=17s
+[2026-03-19 15:29:27] ⏳ Delay 8.8s
+
+[2026-03-19 15:29:36] ✍️ [2/100] Writing section: Requirements:
+[2026-03-19 15:29:36] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:29:48] 📡 HTTP Status: 200
+[2026-03-19 15:29:48] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=250 | completion_tokens=646 | total_tokens=896
+[2026-03-19 15:29:48] 📝 Section done | section=2/100 | words=187 | time=12s
+[2026-03-19 15:29:48] ⏳ Delay 9.1s
+
+[2026-03-19 15:29:57] ✍️ [3/100] Writing section: - Articles must be written in English: So all section titles should be in English.
+[2026-03-19 15:29:57] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:30:16] 📡 HTTP Status: 200
+[2026-03-19 15:30:16] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=265 | completion_tokens=652 | total_tokens=917
+[2026-03-19 15:30:16] 📝 Section done | section=3/100 | words=228 | time=18s
+[2026-03-19 15:30:16] ⏳ Delay 10.9s
+
+[2026-03-19 15:30:27] ✍️ [4/100] Writing section: - Create 4 to 6 sections: I need to decide on the number. Since it says "4 to 6", I'll aim for 5 sections to be safe, but I can choose 4 or 6 if needed. Let's think about what sections would be logical for this topic.
+[2026-03-19 15:30:27] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:30:47] 📡 HTTP Status: 200
+[2026-03-19 15:30:47] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=310 | completion_tokens=1200 | total_tokens=1510
+[2026-03-19 15:30:47] 📝 Section done | section=4/100 | words=89 | time=20s
+[2026-03-19 15:30:47] ⏳ Delay 8.2s
+
+[2026-03-19 15:30:55] ✍️ [5/100] Writing section: - Each section must contain only a short title: So just the title, no explanations or subtitles.
+[2026-03-19 15:30:55] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:30:57] 📡 HTTP Status: 429
+[2026-03-19 15:30:57] ❌ API ERROR | code=429 | message=Provider returned error
+[2026-03-19 15:30:57] 🚫 Rate limit hit! (1/5)
+[2026-03-19 15:30:57] ⏳ Forced delay 10 seconds...
+
+[2026-03-19 15:31:07] 🌐 API CALL | attempt=2/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:31:25] 📡 HTTP Status: 200
+[2026-03-19 15:31:25] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=269 | completion_tokens=683 | total_tokens=952
+[2026-03-19 15:31:25] 📝 Section done | section=5/100 | words=224 | time=30s
+[2026-03-19 15:31:25] ⏳ Delay 8.9s
+
+[2026-03-19 15:31:34] ✍️ [6/100] Writing section: - Do not use numbering: So no numbers like 1, 2, 3. Just plain titles.
+[2026-03-19 15:31:34] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:31:52] 📡 HTTP Status: 200
+[2026-03-19 15:31:52] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=271 | completion_tokens=1200 | total_tokens=1471
+[2026-03-19 15:31:52] 📝 Section done | section=6/100 | words=961 | time=17s
+[2026-03-19 15:31:52] ⏳ Delay 11.7s
+
+[2026-03-19 15:32:04] ✍️ [7/100] Writing section: - Do not write the article title: I'm not supposed to include the main title of the article. Only the section titles.
+[2026-03-19 15:32:04] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:32:18] 📡 HTTP Status: 200
+[2026-03-19 15:32:18] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=274 | completion_tokens=705 | total_tokens=979
+[2026-03-19 15:32:18] 📝 Section done | section=7/100 | words=159 | time=14s
+[2026-03-19 15:32:18] ⏳ Delay 8.0s
+
+[2026-03-19 15:32:26] ✍️ [8/100] Writing section: - Do not add explanations: Just the titles, no descriptions.
+[2026-03-19 15:32:26] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:32:44] 📡 HTTP Status: 200
+[2026-03-19 15:32:44] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=261 | completion_tokens=1200 | total_tokens=1461
+[2026-03-19 15:32:44] 📝 Section done | section=8/100 | words=972 | time=18s
+[2026-03-19 15:32:44] ⏳ Delay 9.3s
+
+[2026-03-19 15:32:54] ✍️ [9/100] Writing section: - One section per line: Output should have each section on a separate line.
+[2026-03-19 15:32:54] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:33:11] 📡 HTTP Status: 200
+[2026-03-19 15:33:11] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=264 | completion_tokens=848 | total_tokens=1112
+[2026-03-19 15:33:11] 📝 Section done | section=9/100 | words=298 | time=17s
+[2026-03-19 15:33:11] ⏳ Delay 9.5s
+
+[2026-03-19 15:33:20] ✍️ [10/100] Writing section: - Avoid repeating sections: Make sure each section is unique and covers different aspects.
+[2026-03-19 15:33:20] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:33:41] 📡 HTTP Status: 200
+[2026-03-19 15:33:41] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=264 | completion_tokens=617 | total_tokens=881
+[2026-03-19 15:33:41] 📝 Section done | section=10/100 | words=195 | time=20s
+[2026-03-19 15:33:41] ⏳ Delay 8.8s
+
+[2026-03-19 15:33:50] ✍️ [11/100] Writing section: - Use clear and informative titles: Titles should be clear and convey what the section is about.
+[2026-03-19 15:33:50] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:34:12] 📡 HTTP Status: 200
+[2026-03-19 15:34:12] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=267 | completion_tokens=1174 | total_tokens=1441
+[2026-03-19 15:34:12] 📝 Section done | section=11/100 | words=225 | time=22s
+[2026-03-19 15:34:12] ⏳ Delay 9.6s
+
+[2026-03-19 15:34:22] ✍️ [12/100] Writing section: Output format: Only list the sections, one line per section. So my response should be a list of titles, each on a new line.
+[2026-03-19 15:34:22] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:34:40] 📡 HTTP Status: 200
+[2026-03-19 15:34:40] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=277 | completion_tokens=1200 | total_tokens=1477
+[2026-03-19 15:34:40] 📝 Section done | section=12/100 | words=941 | time=17s
+[2026-03-19 15:34:40] ⏳ Delay 8.6s
+
+[2026-03-19 15:34:48] ✍️ [13/100] Writing section: Now, brainstorming sections for an article on overfitting in machine learning. The topic is about when a model memorizes instead of learns, so I need to cover key aspects like definition, causes, detection, prevention, and consequences.
+[2026-03-19 15:34:48] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:35:01] 📡 HTTP Status: 200
+[2026-03-19 15:35:01] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=294 | completion_tokens=818 | total_tokens=1112
+[2026-03-19 15:35:01] 📝 Section done | section=13/100 | words=181 | time=12s
+[2026-03-19 15:35:01] ⏳ Delay 9.9s
+
+[2026-03-19 15:35:11] ✍️ [14/100] Writing section: Possible sections:
+[2026-03-19 15:35:11] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:35:29] 📡 HTTP Status: 200
+[2026-03-19 15:35:29] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=251 | completion_tokens=763 | total_tokens=1014
+[2026-03-19 15:35:29] 📝 Section done | section=14/100 | words=183 | time=17s
+[2026-03-19 15:35:29] ⏳ Delay 11.7s
+
+[2026-03-19 15:35:40] ✍️ [15/100] Writing section: 1. Introduction to Overfitting – but I can't write the article title, and this might be too vague. I need short, informative titles.
+[2026-03-19 15:35:40] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:35:53] 📡 HTTP Status: 200
+[2026-03-19 15:35:53] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=279 | completion_tokens=695 | total_tokens=974
+[2026-03-19 15:35:53] 📝 Section done | section=15/100 | words=180 | time=12s
+[2026-03-19 15:35:53] ⏳ Delay 11.8s
+
+[2026-03-19 15:36:05] ✍️ [16/100] Writing section: 2. What is Overfitting? – but that might be too direct. Since the article title already mentions it, I can have a section that defines it.
+[2026-03-19 15:36:05] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:36:18] 📡 HTTP Status: 200
+[2026-03-19 15:36:18] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=281 | completion_tokens=694 | total_tokens=975
+[2026-03-19 15:36:18] 📝 Section done | section=16/100 | words=219 | time=12s
+[2026-03-19 15:36:18] ⏳ Delay 8.6s
+
+[2026-03-19 15:36:26] ✍️ [17/100] Writing section: 3. Causes of Overfitting
+[2026-03-19 15:36:26] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:36:42] 📡 HTTP Status: 200
+[2026-03-19 15:36:42] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=256 | completion_tokens=761 | total_tokens=1017
+[2026-03-19 15:36:42] 📝 Section done | section=17/100 | words=269 | time=15s
+[2026-03-19 15:36:42] ⏳ Delay 8.2s
+
+[2026-03-19 15:36:50] ✍️ [18/100] Writing section: 4. How to Detect Overfitting
+[2026-03-19 15:36:50] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:37:04] 📡 HTTP Status: 200
+[2026-03-19 15:37:04] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=257 | completion_tokens=828 | total_tokens=1085
+[2026-03-19 15:37:04] 📝 Section done | section=18/100 | words=206 | time=13s
+[2026-03-19 15:37:04] ⏳ Delay 12.0s
+
+[2026-03-19 15:37:16] ✍️ [19/100] Writing section: 5. Techniques to Prevent Overfitting
+[2026-03-19 15:37:16] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:37:32] 📡 HTTP Status: 200
+[2026-03-19 15:37:32] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=257 | completion_tokens=825 | total_tokens=1082
+[2026-03-19 15:37:32] 📝 Section done | section=19/100 | words=230 | time=15s
+[2026-03-19 15:37:32] ⏳ Delay 8.8s
+
+[2026-03-19 15:37:40] ✍️ [20/100] Writing section: 6. The Impact of Overfitting on Model Performance
+[2026-03-19 15:37:40] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:37:53] 📡 HTTP Status: 200
+[2026-03-19 15:37:53] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=260 | completion_tokens=851 | total_tokens=1111
+[2026-03-19 15:37:53] 📝 Section done | section=20/100 | words=176 | time=12s
+[2026-03-19 15:37:53] ⏳ Delay 8.6s
+
+[2026-03-19 15:38:01] ✍️ [21/100] Writing section: 7. Balancing Bias and Variance
+[2026-03-19 15:38:01] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:38:16] 📡 HTTP Status: 200
+[2026-03-19 15:38:16] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=256 | completion_tokens=623 | total_tokens=879
+[2026-03-19 15:38:16] 📝 Section done | section=21/100 | words=193 | time=15s
+[2026-03-19 15:38:16] ⏳ Delay 10.5s
+
+[2026-03-19 15:38:27] ✍️ [22/100] Writing section: 8. Real-World Examples
+[2026-03-19 15:38:27] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:38:40] 📡 HTTP Status: 200
+[2026-03-19 15:38:40] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=667 | total_tokens=922
+[2026-03-19 15:38:40] 📝 Section done | section=22/100 | words=211 | time=13s
+[2026-03-19 15:38:40] ⏳ Delay 12.0s
+
+[2026-03-19 15:38:52] ✍️ [23/100] Writing section: I need 4 to 6 sections. Let's list out 5 sections that are clear and informative.
+[2026-03-19 15:38:52] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:39:10] 📡 HTTP Status: 200
+[2026-03-19 15:39:10] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=270 | completion_tokens=1188 | total_tokens=1458
+[2026-03-19 15:39:10] 📝 Section done | section=23/100 | words=503 | time=17s
+[2026-03-19 15:39:10] ⏳ Delay 11.4s
+
+[2026-03-19 15:39:21] ✍️ [24/100] Writing section: Ensure titles are short: So keep them concise, like "Understanding Overfitting" or "Prevention Strategies".
+[2026-03-19 15:39:21] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:39:34] 📡 HTTP Status: 200
+[2026-03-19 15:39:34] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=270 | completion_tokens=891 | total_tokens=1161
+[2026-03-19 15:39:34] 📝 Section done | section=24/100 | words=180 | time=13s
+[2026-03-19 15:39:34] ⏳ Delay 8.1s
+
+[2026-03-19 15:39:42] ✍️ [25/100] Writing section: Avoid repetition: Each section should have a distinct focus.
+[2026-03-19 15:39:42] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:40:01] 📡 HTTP Status: 200
+[2026-03-19 15:40:01] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=259 | completion_tokens=1011 | total_tokens=1270
+[2026-03-19 15:40:01] 📝 Section done | section=25/100 | words=261 | time=18s
+[2026-03-19 15:40:01] ⏳ Delay 8.1s
+
+[2026-03-19 15:40:09] ✍️ [26/100] Writing section: Finalize a list:
+[2026-03-19 15:40:09] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:40:23] 📡 HTTP Status: 200
+[2026-03-19 15:40:23] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=253 | completion_tokens=850 | total_tokens=1103
+[2026-03-19 15:40:23] 📝 Section done | section=26/100 | words=232 | time=14s
+[2026-03-19 15:40:23] ⏳ Delay 10.0s
+
+[2026-03-19 15:40:33] ✍️ [27/100] Writing section: - Introduction to Overfitting (but "Introduction" might not be informative enough; better to be specific)
+[2026-03-19 15:40:33] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:40:45] 📡 HTTP Status: 200
+[2026-03-19 15:40:45] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=269 | completion_tokens=518 | total_tokens=787
+[2026-03-19 15:40:45] 📝 Section done | section=27/100 | words=154 | time=12s
+[2026-03-19 15:40:45] ⏳ Delay 11.2s
+
+[2026-03-19 15:40:56] ✍️ [28/100] Writing section: - Defining Overfitting in Machine Learning
+[2026-03-19 15:40:56] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:42:18] ⚠️ Exception: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. | retry in 2.1s...
+[2026-03-19 15:42:20] 🌐 API CALL | attempt=2/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:42:57] ⚠️ Exception: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=30) | retry in 3.4s...
+[2026-03-19 15:43:01] 🌐 API CALL | attempt=3/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:43:32] ⚠️ Exception: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=30) | retry in 6.3s...
+[2026-03-19 15:43:38] 🌐 API CALL | attempt=4/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:43:55] 📡 HTTP Status: 200
+[2026-03-19 15:43:55] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=256 | completion_tokens=860 | total_tokens=1116
+[2026-03-19 15:43:55] 📝 Section done | section=28/100 | words=173 | time=2m 59s
+[2026-03-19 15:43:55] ⏳ Delay 10.7s
+
+[2026-03-19 15:44:06] ✍️ [29/100] Writing section: - Common Causes of Model Memorization
+[2026-03-19 15:44:06] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:44:16] 📡 HTTP Status: 200
+[2026-03-19 15:44:16] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=256 | completion_tokens=552 | total_tokens=808
+[2026-03-19 15:44:16] 📝 Section done | section=29/100 | words=177 | time=9s
+[2026-03-19 15:44:16] ⏳ Delay 8.7s
+
+[2026-03-19 15:44:25] ✍️ [30/100] Writing section: - Methods for Identifying Overfitting
+[2026-03-19 15:44:25] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:44:41] 📡 HTTP Status: 200
+[2026-03-19 15:44:41] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=980 | total_tokens=1235
+[2026-03-19 15:44:41] 📝 Section done | section=30/100 | words=271 | time=16s
+[2026-03-19 15:44:41] ⏳ Delay 9.0s
+
+[2026-03-19 15:44:50] ✍️ [31/100] Writing section: - Strategies to Avoid Overfitting
+[2026-03-19 15:44:50] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:45:02] 📡 HTTP Status: 200
+[2026-03-19 15:45:02] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=711 | total_tokens=966
+[2026-03-19 15:45:02] 📝 Section done | section=31/100 | words=209 | time=11s
+[2026-03-19 15:45:02] ⏳ Delay 9.6s
+
+[2026-03-19 15:45:11] ✍️ [32/100] Writing section: - Consequences of Overfitting
+[2026-03-19 15:45:11] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:45:25] 📡 HTTP Status: 200
+[2026-03-19 15:45:25] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=254 | completion_tokens=759 | total_tokens=1013
+[2026-03-19 15:45:25] 📝 Section done | section=32/100 | words=211 | time=13s
+[2026-03-19 15:45:25] ⏳ Delay 8.0s
+
+[2026-03-19 15:45:33] ✍️ [33/100] Writing section: That's 6 sections. But I need 4 to 6, so 6 is acceptable. But let's see if I can condense or make it 5.
+[2026-03-19 15:45:33] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:45:55] 📡 HTTP Status: 200
+[2026-03-19 15:45:55] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=284 | completion_tokens=1069 | total_tokens=1353
+[2026-03-19 15:45:55] 📝 Section done | section=33/100 | words=541 | time=21s
+[2026-03-19 15:45:55] ⏳ Delay 8.3s
+
+[2026-03-19 15:46:03] ✍️ [34/100] Writing section: Refine:
+[2026-03-19 15:46:03] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:46:16] 📡 HTTP Status: 200
+[2026-03-19 15:46:16] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=251 | completion_tokens=802 | total_tokens=1053
+[2026-03-19 15:46:16] 📝 Section done | section=34/100 | words=220 | time=13s
+[2026-03-19 15:46:16] ⏳ Delay 11.4s
+
+[2026-03-19 15:46:28] ✍️ [35/100] Writing section: 1. What is Overfitting?
+[2026-03-19 15:46:28] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:46:41] 📡 HTTP Status: 200
+[2026-03-19 15:46:41] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=256 | completion_tokens=715 | total_tokens=971
+[2026-03-19 15:46:41] 📝 Section done | section=35/100 | words=165 | time=12s
+[2026-03-19 15:46:41] ⏳ Delay 9.9s
+
+[2026-03-19 15:46:50] ✍️ [36/100] Writing section: 2. Why Models Overfit
+[2026-03-19 15:46:50] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:47:04] 📡 HTTP Status: 200
+[2026-03-19 15:47:04] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=256 | completion_tokens=678 | total_tokens=934
+[2026-03-19 15:47:04] 📝 Section done | section=36/100 | words=195 | time=13s
+[2026-03-19 15:47:04] ⏳ Delay 10.5s
+
+[2026-03-19 15:47:14] ✍️ [37/100] Writing section: 3. Detecting Overfitting
+[2026-03-19 15:47:14] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:47:24] 📡 HTTP Status: 200
+[2026-03-19 15:47:24] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=256 | completion_tokens=589 | total_tokens=845
+[2026-03-19 15:47:24] 📝 Section done | section=37/100 | words=196 | time=9s
+[2026-03-19 15:47:24] ⏳ Delay 9.3s
+
+[2026-03-19 15:47:33] ✍️ [38/100] Writing section: 4. Preventing Overfitting
+[2026-03-19 15:47:33] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:47:45] 📡 HTTP Status: 200
+[2026-03-19 15:47:45] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=805 | total_tokens=1060
+[2026-03-19 15:47:45] 📝 Section done | section=38/100 | words=206 | time=12s
+[2026-03-19 15:47:45] ⏳ Delay 11.7s
+
+[2026-03-19 15:47:57] ✍️ [39/100] Writing section: 5. Effects of Overfitting
+[2026-03-19 15:47:57] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:48:08] 📡 HTTP Status: 200
+[2026-03-19 15:48:08] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=256 | completion_tokens=647 | total_tokens=903
+[2026-03-19 15:48:08] 📝 Section done | section=39/100 | words=212 | time=10s
+[2026-03-19 15:48:08] ⏳ Delay 8.1s
+
+[2026-03-19 15:48:16] ✍️ [40/100] Writing section: These are short and clear. But "What is Overfitting?" might be too simple. Since the article title is given, I can assume readers know the basics, but for an outline, it's fine.
+[2026-03-19 15:48:16] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:48:25] 📡 HTTP Status: 200
+[2026-03-19 15:48:25] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=290 | completion_tokens=543 | total_tokens=833
+[2026-03-19 15:48:25] 📝 Section done | section=40/100 | words=237 | time=9s
+[2026-03-19 15:48:25] ⏳ Delay 11.8s
+
+[2026-03-19 15:48:37] ✍️ [41/100] Writing section: Make titles more informative:
+[2026-03-19 15:48:37] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:48:50] 📡 HTTP Status: 200
+[2026-03-19 15:48:50] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=253 | completion_tokens=827 | total_tokens=1080
+[2026-03-19 15:48:50] 📝 Section done | section=41/100 | words=229 | time=12s
+[2026-03-19 15:48:50] ⏳ Delay 9.5s
+
+[2026-03-19 15:48:59] ✍️ [42/100] Writing section: - The Nature of Overfitting
+[2026-03-19 15:48:59] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:49:14] 📡 HTTP Status: 200
+[2026-03-19 15:49:14] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=973 | total_tokens=1228
+[2026-03-19 15:49:14] 📝 Section done | section=42/100 | words=291 | time=14s
+[2026-03-19 15:49:14] ⏳ Delay 8.4s
+
+[2026-03-19 15:49:22] ✍️ [43/100] Writing section: - Root Causes of Memorization
+[2026-03-19 15:49:22] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:49:38] 📡 HTTP Status: 200
+[2026-03-19 15:49:38] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=794 | total_tokens=1049
+[2026-03-19 15:49:38] 📝 Section done | section=43/100 | words=180 | time=15s
+[2026-03-19 15:49:38] ⏳ Delay 12.0s
+
+[2026-03-19 15:49:50] ✍️ [44/100] Writing section: - Signs of Overfitting in Models
+[2026-03-19 15:49:50] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:50:02] 📡 HTTP Status: 200
+[2026-03-19 15:50:02] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=256 | completion_tokens=840 | total_tokens=1096
+[2026-03-19 15:50:02] 📝 Section done | section=44/100 | words=187 | time=12s
+[2026-03-19 15:50:02] ⏳ Delay 8.4s
+
+[2026-03-19 15:50:11] ✍️ [45/100] Writing section: - Mitigation Techniques
+[2026-03-19 15:50:11] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:50:24] 📡 HTTP Status: 200
+[2026-03-19 15:50:24] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=253 | completion_tokens=650 | total_tokens=903
+[2026-03-19 15:50:24] 📝 Section done | section=45/100 | words=212 | time=13s
+[2026-03-19 15:50:24] ⏳ Delay 9.7s
+
+[2026-03-19 15:50:34] ✍️ [46/100] Writing section: - Real-World Implications
+[2026-03-19 15:50:34] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:50:45] 📡 HTTP Status: 200
+[2026-03-19 15:50:45] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=253 | completion_tokens=698 | total_tokens=951
+[2026-03-19 15:50:45] 📝 Section done | section=46/100 | words=178 | time=10s
+[2026-03-19 15:50:45] ⏳ Delay 11.7s
+
+[2026-03-19 15:50:56] ✍️ [47/100] Writing section: But "The Nature of Overfitting" might not be as clear. I should use straightforward titles.
+[2026-03-19 15:50:56] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:50:58] 📡 HTTP Status: 429
+[2026-03-19 15:50:58] ❌ API ERROR | code=429 | message=Provider returned error
+[2026-03-19 15:50:58] 🚫 Rate limit hit! (1/5)
+[2026-03-19 15:50:58] ⏳ Forced delay 10 seconds...
+
+[2026-03-19 15:51:08] 🌐 API CALL | attempt=2/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:51:24] 📡 HTTP Status: 200
+[2026-03-19 15:51:24] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=268 | completion_tokens=1200 | total_tokens=1468
+[2026-03-19 15:51:24] 📝 Section done | section=47/100 | words=962 | time=27s
+[2026-03-19 15:51:24] ⏳ Delay 11.7s
+
+[2026-03-19 15:51:36] ✍️ [48/100] Writing section: User said "Use clear and informative titles", so titles like "Understanding Overfitting" or "Causes of Overfitting" are good.
+[2026-03-19 15:51:36] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:52:01] 📡 HTTP Status: 200
+[2026-03-19 15:52:01] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=276 | completion_tokens=1200 | total_tokens=1476
+[2026-03-19 15:52:01] 📝 Section done | section=48/100 | words=938 | time=24s
+[2026-03-19 15:52:01] ⏳ Delay 8.1s
+
+[2026-03-19 15:52:09] ✍️ [49/100] Writing section: List 5 sections:
+[2026-03-19 15:52:09] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:52:25] 📡 HTTP Status: 200
+[2026-03-19 15:52:25] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=253 | completion_tokens=1200 | total_tokens=1453
+[2026-03-19 15:52:25] 📝 Section done | section=49/100 | words=223 | time=16s
+[2026-03-19 15:52:25] ⏳ Delay 8.7s
+
+[2026-03-19 15:52:34] ✍️ [50/100] Writing section: 1. Defining Overfitting
+[2026-03-19 15:52:34] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:52:44] 📡 HTTP Status: 200
+[2026-03-19 15:52:44] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=634 | total_tokens=889
+[2026-03-19 15:52:44] 📝 Section done | section=50/100 | words=168 | time=9s
+[2026-03-19 15:52:44] ⏳ Delay 10.0s
+
+[2026-03-19 15:52:54] ✍️ [51/100] Writing section: 2. Factors Leading to Overfitting
+[2026-03-19 15:52:54] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:53:07] 📡 HTTP Status: 200
+[2026-03-19 15:53:07] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=257 | completion_tokens=855 | total_tokens=1112
+[2026-03-19 15:53:07] 📝 Section done | section=51/100 | words=224 | time=13s
+[2026-03-19 15:53:07] ⏳ Delay 10.8s
+
+[2026-03-19 15:53:18] ✍️ [52/100] Writing section: 3. Diagnosing Overfitting
+[2026-03-19 15:53:18] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:53:32] 📡 HTTP Status: 200
+[2026-03-19 15:53:32] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=256 | completion_tokens=669 | total_tokens=925
+[2026-03-19 15:53:32] 📝 Section done | section=52/100 | words=232 | time=14s
+[2026-03-19 15:53:32] ⏳ Delay 10.2s
+
+[2026-03-19 15:53:43] ✍️ [53/100] Writing section: 4. Preventing Overfitting
+[2026-03-19 15:53:43] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:53:57] 📡 HTTP Status: 200
+[2026-03-19 15:53:57] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=810 | total_tokens=1065
+[2026-03-19 15:53:57] 📝 Section done | section=53/100 | words=210 | time=14s
+[2026-03-19 15:53:57] ⏳ Delay 9.2s
+
+[2026-03-19 15:54:07] ✍️ [54/100] Writing section: 5. Impact on Machine Learning Projects
+[2026-03-19 15:54:07] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:54:18] 📡 HTTP Status: 200
+[2026-03-19 15:54:18] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=257 | completion_tokens=735 | total_tokens=992
+[2026-03-19 15:54:18] 📝 Section done | section=54/100 | words=244 | time=11s
+[2026-03-19 15:54:18] ⏳ Delay 11.9s
+
+[2026-03-19 15:54:30] ✍️ [55/100] Writing section: That seems balanced.
+[2026-03-19 15:54:30] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:54:45] 📡 HTTP Status: 200
+[2026-03-19 15:54:45] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=252 | completion_tokens=802 | total_tokens=1054
+[2026-03-19 15:54:45] 📝 Section done | section=55/100 | words=216 | time=14s
+[2026-03-19 15:54:45] ⏳ Delay 10.5s
+
+[2026-03-19 15:54:55] ✍️ [56/100] Writing section: Now, ensure no numbering: Just list them one per line.
+[2026-03-19 15:54:55] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:55:10] 📡 HTTP Status: 200
+[2026-03-19 15:55:10] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=261 | completion_tokens=1200 | total_tokens=1461
+[2026-03-19 15:55:10] 📝 Section done | section=56/100 | words=951 | time=14s
+[2026-03-19 15:55:10] ⏳ Delay 8.5s
+
+[2026-03-19 15:55:18] ✍️ [57/100] Writing section: Output format: Only the sections, so no additional text.
+[2026-03-19 15:55:18] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:55:29] 📡 HTTP Status: 200
+[2026-03-19 15:55:29] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=260 | completion_tokens=603 | total_tokens=863
+[2026-03-19 15:55:29] 📝 Section done | section=57/100 | words=197 | time=10s
+[2026-03-19 15:55:29] ⏳ Delay 9.2s
+
+[2026-03-19 15:55:38] ✍️ [58/100] Writing section: So, my response should be:
+[2026-03-19 15:55:38] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:55:50] 📡 HTTP Status: 200
+[2026-03-19 15:55:50] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=746 | total_tokens=1001
+[2026-03-19 15:55:50] 📝 Section done | section=58/100 | words=182 | time=11s
+[2026-03-19 15:55:50] ⏳ Delay 10.7s
+
+[2026-03-19 15:56:01] ✍️ [59/100] Writing section: Defining Overfitting
+[2026-03-19 15:56:01] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:56:19] 📡 HTTP Status: 200
+[2026-03-19 15:56:19] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=252 | completion_tokens=709 | total_tokens=961
+[2026-03-19 15:56:19] 📝 Section done | section=59/100 | words=210 | time=18s
+[2026-03-19 15:56:19] ⏳ Delay 11.4s
+
+[2026-03-19 15:56:31] ✍️ [60/100] Writing section: Factors Leading to Overfitting
+[2026-03-19 15:56:31] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:56:40] 📡 HTTP Status: 200
+[2026-03-19 15:56:40] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=254 | completion_tokens=597 | total_tokens=851
+[2026-03-19 15:56:40] 📝 Section done | section=60/100 | words=222 | time=9s
+[2026-03-19 15:56:40] ⏳ Delay 8.7s
+
+[2026-03-19 15:56:48] ✍️ [61/100] Writing section: Diagnosing Overfitting
+[2026-03-19 15:56:48] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:57:15] 📡 HTTP Status: 200
+[2026-03-19 15:57:15] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=253 | completion_tokens=653 | total_tokens=906
+[2026-03-19 15:57:15] 📝 Section done | section=61/100 | words=200 | time=26s
+[2026-03-19 15:57:15] ⏳ Delay 9.4s
+
+[2026-03-19 15:57:24] ✍️ [62/100] Writing section: Preventing Overfitting
+[2026-03-19 15:57:24] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:57:38] 📡 HTTP Status: 200
+[2026-03-19 15:57:38] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=252 | completion_tokens=772 | total_tokens=1024
+[2026-03-19 15:57:38] 📝 Section done | section=62/100 | words=233 | time=13s
+[2026-03-19 15:57:38] ⏳ Delay 9.1s
+
+[2026-03-19 15:57:47] ✍️ [63/100] Writing section: Impact on Machine Learning Projects
+[2026-03-19 15:57:47] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:57:58] 📡 HTTP Status: 200
+[2026-03-19 15:57:58] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=254 | completion_tokens=596 | total_tokens=850
+[2026-03-19 15:57:58] 📝 Section done | section=63/100 | words=186 | time=10s
+[2026-03-19 15:57:58] ⏳ Delay 10.3s
+
+[2026-03-19 15:58:08] ✍️ [64/100] Writing section: But I need to check if these are distinct and cover the topic. "Impact on Machine Learning Projects" might be vague; better "Consequences of Overfitting".
+[2026-03-19 15:58:08] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:58:19] 📡 HTTP Status: 200
+[2026-03-19 15:58:19] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=281 | completion_tokens=590 | total_tokens=871
+[2026-03-19 15:58:19] 📝 Section done | section=64/100 | words=199 | time=10s
+[2026-03-19 15:58:19] ⏳ Delay 8.9s
+
+[2026-03-19 15:58:28] ✍️ [65/100] Writing section: Adjust:
+[2026-03-19 15:58:28] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:58:39] 📡 HTTP Status: 200
+[2026-03-19 15:58:39] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=250 | completion_tokens=650 | total_tokens=900
+[2026-03-19 15:58:39] 📝 Section done | section=65/100 | words=199 | time=11s
+[2026-03-19 15:58:39] ⏳ Delay 11.4s
+
+[2026-03-19 15:58:51] ✍️ [66/100] Writing section: - What is Overfitting?
+[2026-03-19 15:58:51] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:59:02] 📡 HTTP Status: 200
+[2026-03-19 15:59:02] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=254 | completion_tokens=615 | total_tokens=869
+[2026-03-19 15:59:02] 📝 Section done | section=66/100 | words=234 | time=11s
+[2026-03-19 15:59:02] ⏳ Delay 10.1s
+
+[2026-03-19 15:59:13] ✍️ [67/100] Writing section: - Causes of Overfitting
+[2026-03-19 15:59:13] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:59:27] 📡 HTTP Status: 200
+[2026-03-19 15:59:27] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=254 | completion_tokens=883 | total_tokens=1137
+[2026-03-19 15:59:27] 📝 Section done | section=67/100 | words=206 | time=14s
+[2026-03-19 15:59:27] ⏳ Delay 9.8s
+
+[2026-03-19 15:59:37] ✍️ [68/100] Writing section: - Detection Methods
+[2026-03-19 15:59:37] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:59:47] 📡 HTTP Status: 200
+[2026-03-19 15:59:47] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=252 | completion_tokens=636 | total_tokens=888
+[2026-03-19 15:59:47] 📝 Section done | section=68/100 | words=188 | time=10s
+[2026-03-19 15:59:47] ⏳ Delay 8.8s
+
+[2026-03-19 15:59:56] ✍️ [69/100] Writing section: - Prevention Strategies
+[2026-03-19 15:59:56] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 15:59:58] 📡 HTTP Status: 429
+[2026-03-19 15:59:58] ❌ API ERROR | code=429 | message=Provider returned error
+[2026-03-19 15:59:58] 🚫 Rate limit hit! (1/5)
+[2026-03-19 15:59:58] ⏳ Forced delay 10 seconds...
+
+[2026-03-19 16:00:08] 🌐 API CALL | attempt=2/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:00:29] 📡 HTTP Status: 200
+[2026-03-19 16:00:29] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=252 | completion_tokens=1200 | total_tokens=1452
+[2026-03-19 16:00:29] 📝 Section done | section=69/100 | words=99 | time=33s
+[2026-03-19 16:00:29] ⏳ Delay 10.4s
+
+[2026-03-19 16:00:39] ✍️ [70/100] Writing section: - Consequences and Solutions
+[2026-03-19 16:00:39] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:00:53] 📡 HTTP Status: 200
+[2026-03-19 16:00:53] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=253 | completion_tokens=623 | total_tokens=876
+[2026-03-19 16:00:53] 📝 Section done | section=70/100 | words=210 | time=14s
+[2026-03-19 16:00:53] ⏳ Delay 11.4s
+
+[2026-03-19 16:01:05] ✍️ [71/100] Writing section: But "Consequences and Solutions" might combine two things. Better to keep separate if possible, but I have only 4-6 sections.
+[2026-03-19 16:01:05] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:01:18] 📡 HTTP Status: 200
+[2026-03-19 16:01:18] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=277 | completion_tokens=772 | total_tokens=1049
+[2026-03-19 16:01:18] 📝 Section done | section=71/100 | words=194 | time=12s
+[2026-03-19 16:01:18] ⏳ Delay 10.6s
+
+[2026-03-19 16:01:28] ✍️ [72/100] Writing section: I think 5 sections is good. Let's finalize:
+[2026-03-19 16:01:28] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:01:41] 📡 HTTP Status: 200
+[2026-03-19 16:01:41] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=261 | completion_tokens=606 | total_tokens=867
+[2026-03-19 16:01:41] 📝 Section done | section=72/100 | words=173 | time=12s
+[2026-03-19 16:01:41] ⏳ Delay 9.5s
+
+[2026-03-19 16:01:51] ✍️ [73/100] Writing section: 1. Understanding Overfitting
+[2026-03-19 16:01:51] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:02:09] 📡 HTTP Status: 200
+[2026-03-19 16:02:09] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=1200 | total_tokens=1455
+[2026-03-19 16:02:09] 📝 Section done | section=73/100 | words=930 | time=18s
+[2026-03-19 16:02:09] ⏳ Delay 8.7s
+
+[2026-03-19 16:02:18] ✍️ [74/100] Writing section: 2. Common Causes
+[2026-03-19 16:02:18] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:02:31] 📡 HTTP Status: 200
+[2026-03-19 16:02:31] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=254 | completion_tokens=695 | total_tokens=949
+[2026-03-19 16:02:31] 📝 Section done | section=74/100 | words=214 | time=13s
+[2026-03-19 16:02:31] ⏳ Delay 8.7s
+
+[2026-03-19 16:02:40] ✍️ [75/100] Writing section: 3. Detection Techniques
+[2026-03-19 16:02:40] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:02:56] 📡 HTTP Status: 200
+[2026-03-19 16:02:56] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=254 | completion_tokens=1200 | total_tokens=1454
+[2026-03-19 16:02:56] 📝 Section done | section=75/100 | words=942 | time=16s
+[2026-03-19 16:02:56] ⏳ Delay 10.8s
+
+[2026-03-19 16:03:07] ✍️ [76/100] Writing section: 4. Prevention Methods
+[2026-03-19 16:03:07] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:03:25] 📡 HTTP Status: 200
+[2026-03-19 16:03:25] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=254 | completion_tokens=771 | total_tokens=1025
+[2026-03-19 16:03:25] 📝 Section done | section=76/100 | words=261 | time=18s
+[2026-03-19 16:03:25] ⏳ Delay 9.8s
+
+[2026-03-19 16:03:35] ✍️ [77/100] Writing section: 5. Real-World Effects
+[2026-03-19 16:03:35] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:03:46] 📡 HTTP Status: 200
+[2026-03-19 16:03:46] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=745 | total_tokens=1000
+[2026-03-19 16:03:46] 📝 Section done | section=77/100 | words=194 | time=11s
+[2026-03-19 16:03:46] ⏳ Delay 11.5s
+
+[2026-03-19 16:03:57] ✍️ [78/100] Writing section: But "Understanding Overfitting" is similar to "What is Overfitting?" – I'll use "Defining Overfitting" to be precise.
+[2026-03-19 16:03:57] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:04:13] 📡 HTTP Status: 200
+[2026-03-19 16:04:13] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=277 | completion_tokens=1036 | total_tokens=1313
+[2026-03-19 16:04:13] 📝 Section done | section=78/100 | words=162 | time=15s
+[2026-03-19 16:04:13] ⏳ Delay 8.2s
+
+[2026-03-19 16:04:21] ✍️ [79/100] Writing section: To avoid repetition, ensure each title is unique.
+[2026-03-19 16:04:21] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:04:39] 📡 HTTP Status: 200
+[2026-03-19 16:04:39] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=258 | completion_tokens=1200 | total_tokens=1458
+[2026-03-19 16:04:39] 📝 Section done | section=79/100 | words=112 | time=17s
+[2026-03-19 16:04:39] ⏳ Delay 8.7s
+
+[2026-03-19 16:04:48] ✍️ [80/100] Writing section: Final list:
+[2026-03-19 16:04:48] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:05:02] 📡 HTTP Status: 200
+[2026-03-19 16:05:02] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=251 | completion_tokens=676 | total_tokens=927
+[2026-03-19 16:05:02] 📝 Section done | section=80/100 | words=206 | time=14s
+[2026-03-19 16:05:02] ⏳ Delay 10.3s
+
+[2026-03-19 16:05:12] ✍️ [81/100] Writing section: - Defining Overfitting in ML
+[2026-03-19 16:05:12] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:05:31] 📡 HTTP Status: 200
+[2026-03-19 16:05:31] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=1200 | total_tokens=1455
+[2026-03-19 16:05:31] 📝 Section done | section=81/100 | words=184 | time=18s
+[2026-03-19 16:05:31] ⏳ Delay 8.0s
+
+[2026-03-19 16:05:39] ✍️ [82/100] Writing section: - Why Models Memorize Data
+[2026-03-19 16:05:39] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:05:57] 📡 HTTP Status: 200
+[2026-03-19 16:05:57] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=627 | total_tokens=882
+[2026-03-19 16:05:57] 📝 Section done | section=82/100 | words=183 | time=17s
+[2026-03-19 16:05:57] ⏳ Delay 8.9s
+
+[2026-03-19 16:06:06] ✍️ [83/100] Writing section: - How to Spot Overfitting
+[2026-03-19 16:06:06] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:06:24] 📡 HTTP Status: 200
+[2026-03-19 16:06:24] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=604 | total_tokens=859
+[2026-03-19 16:06:24] 📝 Section done | section=83/100 | words=163 | time=18s
+[2026-03-19 16:06:24] ⏳ Delay 8.4s
+
+[2026-03-19 16:06:33] ✍️ [84/100] Writing section: - Ways to Reduce Overfitting
+[2026-03-19 16:06:33] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:06:46] 📡 HTTP Status: 200
+[2026-03-19 16:06:46] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=889 | total_tokens=1144
+[2026-03-19 16:06:46] 📝 Section done | section=84/100 | words=195 | time=13s
+[2026-03-19 16:06:46] ⏳ Delay 10.8s
+
+[2026-03-19 16:06:57] ✍️ [85/100] Writing section: - The Cost of Overfitting
+[2026-03-19 16:06:57] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:07:34] ⚠️ Exception: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. | retry in 2.8s...
+[2026-03-19 16:07:37] 🌐 API CALL | attempt=2/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:08:14] ⚠️ Exception: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. | retry in 4.3s...
+[2026-03-19 16:08:18] 🌐 API CALL | attempt=3/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:08:30] 📡 HTTP Status: 200
+[2026-03-19 16:08:30] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=697 | total_tokens=952
+[2026-03-19 16:08:30] 📝 Section done | section=85/100 | words=243 | time=1m 33s
+[2026-03-19 16:08:30] ⏳ Delay 8.4s
+
+[2026-03-19 16:08:39] ✍️ [86/100] Writing section: These are short and informative.
+[2026-03-19 16:08:39] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:08:51] 📡 HTTP Status: 200
+[2026-03-19 16:08:51] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=254 | completion_tokens=693 | total_tokens=947
+[2026-03-19 16:08:51] 📝 Section done | section=86/100 | words=179 | time=11s
+[2026-03-19 16:08:51] ⏳ Delay 8.3s
+
+[2026-03-19 16:08:59] ✍️ [87/100] Writing section: Now, write them one per line without any other text.
+[2026-03-19 16:08:59] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:09:10] 📡 HTTP Status: 200
+[2026-03-19 16:09:10] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=260 | completion_tokens=632 | total_tokens=892
+[2026-03-19 16:09:10] 📝 Section done | section=87/100 | words=201 | time=11s
+[2026-03-19 16:09:10] ⏳ Delay 10.1s
+
+[2026-03-19 16:09:20] ✍️ [88/100] Writing section: So, output:
+[2026-03-19 16:09:20] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:09:37] 📡 HTTP Status: 200
+[2026-03-19 16:09:37] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=252 | completion_tokens=1200 | total_tokens=1452
+[2026-03-19 16:09:37] 📝 Section done | section=88/100 | words=912 | time=16s
+[2026-03-19 16:09:37] ⏳ Delay 11.1s
+
+[2026-03-19 16:09:48] ✍️ [89/100] Writing section: Defining Overfitting in Machine Learning
+[2026-03-19 16:09:48] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:10:07] 📡 HTTP Status: 200
+[2026-03-19 16:10:07] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=255 | completion_tokens=1200 | total_tokens=1455
+[2026-03-19 16:10:07] 📝 Section done | section=89/100 | words=148 | time=18s
+[2026-03-19 16:10:07] ⏳ Delay 10.6s
+
+[2026-03-19 16:10:17] ✍️ [90/100] Writing section: Why Models Memorize Instead of Learn
+[2026-03-19 16:10:17] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:10:37] 📡 HTTP Status: 200
+[2026-03-19 16:10:37] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=256 | completion_tokens=1010 | total_tokens=1266
+[2026-03-19 16:10:37] 📝 Section done | section=90/100 | words=188 | time=19s
+[2026-03-19 16:10:37] ⏳ Delay 10.4s
+
+[2026-03-19 16:10:48] ✍️ [91/100] Writing section: Detecting Overfitting Early
+[2026-03-19 16:10:48] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:10:59] 📡 HTTP Status: 200
+[2026-03-19 16:10:59] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=254 | completion_tokens=623 | total_tokens=877
+[2026-03-19 16:10:59] 📝 Section done | section=91/100 | words=212 | time=11s
+[2026-03-19 16:10:59] ⏳ Delay 9.4s
+
+[2026-03-19 16:11:08] ✍️ [92/100] Writing section: Effective Prevention Techniques
+[2026-03-19 16:11:08] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free
+[2026-03-19 16:11:21] 📡 HTTP Status: 200
+[2026-03-19 16:11:21] ✅ SUCCESS | model=stepfun/step-3.5-flash:free | prompt_tokens=252 | completion_tokens=761 | total_tokens=1013
+[2026-03-19 16:11:21] 📝 Section done | section=92/100 | words=235 | time=12s
+[2026-03-19 16:11:21] ⏳ Delay 8.0s
+
+[2026-03-19 16:11:29] ✍️ [93/100] Writing section: Consequences for Model Deployment
+[2026-03-19 16:11:29] 🌐 API CALL | attempt=1/5 | model=stepfun/step-3.5-flash:free

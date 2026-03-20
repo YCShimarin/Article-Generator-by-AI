@@ -1,0 +1,102 @@
+[2026-03-19 15:03:25] ========== AI ARTICLE GENERATOR START ==========
+[2026-03-19 15:03:25] 
+=== CHOOSE MODEL ===
+[2026-03-19 15:03:25] 1. Gemma 12B
+[2026-03-19 15:03:25] 2. Gemma 4B
+[2026-03-19 15:03:25] 3. StepFun
+[2026-03-19 15:03:29] 
+🔍 Testing model: google/gemma-3-12b-it:free
+
+[2026-03-19 15:03:29] 🔌 Testing connection...
+[2026-03-19 15:03:29] 🌐 API CALL | attempt=1/5 | model=google/gemma-3-12b-it:free
+[2026-03-19 15:03:35] 📡 HTTP Status: 200
+[2026-03-19 15:03:35] ✅ SUCCESS | model=google/gemma-3-12b-it:free | prompt_tokens=4 | completion_tokens=0 | total_tokens=4
+[2026-03-19 15:03:35] Response: Hello! 👋
+[2026-03-19 15:03:35] ✅ Connection OK
+
+[2026-03-19 15:03:35] 🚀 Ready to use model!
+
+[2026-03-19 15:03:35] 🚀 Start generating articles...
+
+[2026-03-19 15:03:35] 📚 Total topics: 22
+[2026-03-19 15:03:35] 
+==============================
+[2026-03-19 15:03:35] 📌 Topic Progress: 1/22
+[2026-03-19 15:03:35] 📌 Topic: Logistic regression, One neuron opening towards complexity
+[2026-03-19 15:03:35] ==============================
+[2026-03-19 15:03:35] 
+📌 Generating article: Logistic regression, One neuron opening towards complexity
+[2026-03-19 15:03:35] 🌐 API CALL | attempt=1/5 | model=google/gemma-3-12b-it:free
+[2026-03-19 15:03:41] 📡 HTTP Status: 200
+[2026-03-19 15:03:41] ✅ SUCCESS | model=google/gemma-3-12b-it:free | prompt_tokens=98 | completion_tokens=0 | total_tokens=98
+[2026-03-19 15:03:41] 🧩 Outline generated | total_sections=6
+[2026-03-19 15:03:41]    1. The Basics
+[2026-03-19 15:03:41]    2. Sigmoid Function
+[2026-03-19 15:03:41]    3. Decision Boundary
+[2026-03-19 15:03:41]    4. Cost Function
+[2026-03-19 15:03:41]    5. Gradient Descent
+[2026-03-19 15:03:41]    6. Beyond Binary Classification
+[2026-03-19 15:03:41] ✍️ [1/6] Writing section: The Basics
+[2026-03-19 15:03:41] 🌐 API CALL | attempt=1/5 | model=google/gemma-3-12b-it:free
+[2026-03-19 15:03:50] 📡 HTTP Status: 200
+[2026-03-19 15:03:50] ✅ SUCCESS | model=google/gemma-3-12b-it:free | prompt_tokens=245 | completion_tokens=0 | total_tokens=245
+[2026-03-19 15:03:50] 📝 Section done | section=1/6 | words=160 | time=9s
+[2026-03-19 15:03:50] ⏳ Delay 8.4s
+
+[2026-03-19 15:03:59] ✍️ [2/6] Writing section: Sigmoid Function
+[2026-03-19 15:03:59] 🌐 API CALL | attempt=1/5 | model=google/gemma-3-12b-it:free
+[2026-03-19 15:04:08] 📡 HTTP Status: 200
+[2026-03-19 15:04:08] ✅ SUCCESS | model=google/gemma-3-12b-it:free | prompt_tokens=246 | completion_tokens=0 | total_tokens=246
+[2026-03-19 15:04:08] 📝 Section done | section=2/6 | words=159 | time=9s
+[2026-03-19 15:04:08] ⏳ Delay 11.4s
+
+[2026-03-19 15:04:20] ✍️ [3/6] Writing section: Decision Boundary
+[2026-03-19 15:04:20] 🌐 API CALL | attempt=1/5 | model=google/gemma-3-12b-it:free
+[2026-03-19 15:04:28] 📡 HTTP Status: 200
+[2026-03-19 15:04:28] ✅ SUCCESS | model=google/gemma-3-12b-it:free | prompt_tokens=245 | completion_tokens=0 | total_tokens=245
+[2026-03-19 15:04:28] 📝 Section done | section=3/6 | words=158 | time=8s
+[2026-03-19 15:04:28] ⏳ Delay 11.1s
+
+[2026-03-19 15:04:39] ✍️ [4/6] Writing section: Cost Function
+[2026-03-19 15:04:39] 🌐 API CALL | attempt=1/5 | model=google/gemma-3-12b-it:free
+[2026-03-19 15:04:48] 📡 HTTP Status: 200
+[2026-03-19 15:04:48] ✅ SUCCESS | model=google/gemma-3-12b-it:free | prompt_tokens=245 | completion_tokens=0 | total_tokens=245
+[2026-03-19 15:04:48] 📝 Section done | section=4/6 | words=174 | time=8s
+[2026-03-19 15:04:48] ⏳ Delay 10.6s
+
+[2026-03-19 15:04:58] ✍️ [5/6] Writing section: Gradient Descent
+[2026-03-19 15:04:58] 🌐 API CALL | attempt=1/5 | model=google/gemma-3-12b-it:free
+[2026-03-19 15:05:08] 📡 HTTP Status: 200
+[2026-03-19 15:05:08] ✅ SUCCESS | model=google/gemma-3-12b-it:free | prompt_tokens=245 | completion_tokens=0 | total_tokens=245
+[2026-03-19 15:05:08] 📝 Section done | section=5/6 | words=148 | time=9s
+[2026-03-19 15:05:08] ⏳ Delay 9.9s
+
+[2026-03-19 15:05:18] ✍️ [6/6] Writing section: Beyond Binary Classification
+[2026-03-19 15:05:18] 🌐 API CALL | attempt=1/5 | model=google/gemma-3-12b-it:free
+[2026-03-19 15:05:28] 📡 HTTP Status: 200
+[2026-03-19 15:05:28] ✅ SUCCESS | model=google/gemma-3-12b-it:free | prompt_tokens=246 | completion_tokens=0 | total_tokens=246
+[2026-03-19 15:05:28] 📝 Section done | section=6/6 | words=152 | time=10s
+[2026-03-19 15:05:28] ⏳ Delay 10.0s
+
+[2026-03-19 15:05:38] ✅ Article complete | topic=Logistic regression, One neuron opening towards complexity | words=971 | total_time=2m 3s
+[2026-03-19 15:05:38] 💾 Markdown saved: output\logistic-regression,-one-neuron-opening-towards-complexity.md
+[2026-03-19 15:05:38] ✅ Saved: Logistic regression, One neuron opening towards complexity
+[2026-03-19 15:05:38] 
+==============================
+[2026-03-19 15:05:38] 📌 Topic Progress: 2/22
+[2026-03-19 15:05:38] 📌 Topic: Linear Regression, from algebra to be an tools to predict many of thing
+[2026-03-19 15:05:38] ==============================
+[2026-03-19 15:05:38] 
+📌 Generating article: Linear Regression, from algebra to be an tools to predict many of thing
+[2026-03-19 15:05:38] 🌐 API CALL | attempt=1/5 | model=google/gemma-3-12b-it:free
+[2026-03-19 15:05:39] 📡 HTTP Status: 429
+[2026-03-19 15:05:39] ❌ API ERROR | code=429 | message=Provider returned error
+[2026-03-19 15:05:39] 🚫 Rate limit hit! (1/5)
+[2026-03-19 15:05:39] ⏳ Forced delay 60 seconds...
+
+[2026-03-19 15:06:39] 🌐 API CALL | attempt=2/5 | model=google/gemma-3-12b-it:free
+[2026-03-19 15:06:40] 📡 HTTP Status: 429
+[2026-03-19 15:06:40] ❌ API ERROR | code=429 | message=Provider returned error
+[2026-03-19 15:06:40] 🚫 Rate limit hit! (2/5)
+[2026-03-19 15:06:40] ⏳ Forced delay 60 seconds...
+
