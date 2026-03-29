@@ -28,7 +28,6 @@ dist/
 build/
 
 logs/
-output/
 
 # Firebase
 .firebase/
