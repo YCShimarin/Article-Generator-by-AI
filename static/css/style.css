@@ -1,0 +1,306 @@
+:root {
+  --sidebar-width: 320px;
+  --border-color: #111;
+  --bg-main: #ffffff;
+  --bg-alt: #f8f9fa;
+  --accent: #000;
+  --text: #111;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Share Tech Mono", monospace;
+  background: var(--bg-main);
+  color: var(--text);
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.sidebar {
+  width: var(--sidebar-width);
+  background: var(--bg-alt);
+  border-right: 2px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.sidebar-header {
+  padding: 20px;
+  border-bottom: 2px solid var(--border-color);
+  background: var(--accent);
+  color: white;
+}
+.sidebar-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.search-box {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.article-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px 0;
+}
+.article-item {
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+.article-item:hover {
+  background: #eee;
+  padding-left: 25px;
+}
+.article-item.active {
+  background: var(--border-color);
+  color: white;
+}
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: white;
+}
+.generator-panel {
+  padding: 25px 40px;
+  background: #fff;
+  border-bottom: 2px solid var(--border-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  gap: 20px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+label {
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+input,
+textarea {
+  padding: 8px;
+  border: 1px solid var(--border-color);
+  font-family: inherit;
+  background: var(--bg-alt);
+}
+textarea {
+  height: 80px;
+  resize: none;
+}
+.action-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn-primary {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.btn-primary:hover {
+  opacity: 0.8;
+}
+.btn-secondary {
+  background: none;
+  border: 1px solid var(--border-color);
+  padding: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.7rem;
+}
+.viewer-area {
+  flex: 1;
+  overflow-y: auto;
+  padding: 40px 60px;
+  line-height: 1.6;
+}
+#status-bar {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 5px;
+}
+.viewer-area h1 {
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 10px;
+}
+.viewer-area pre {
+  background: #1e1e2e;
+  padding: 20px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+/* =========================================
+   LOG PANEL - TERMINAL STYLE (RIGHT SIDEBAR)
+   ========================================= */
+
+.log-panel {
+  width: 350px; /* Lebar saat terbuka */
+  background: #000000;
+  color: #00ff00; /* Hijau Matrix */
+  border-left: 2px solid #333;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  transition: width 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  flex-shrink: 0;
+  overflow: hidden; /* Mencegah isi meluber saat menciut */
+  z-index: 100;
+}
+
+/* State saat LOG disembunyikan (Minimized) */
+.log-panel.minimized {
+  width: 50px; /* Sisakan sedikit ruang untuk tombol */
+  cursor: pointer;
+  border-left: 2px solid #00ff00; /* Beri aksen hijau saat tertutup */
+}
+
+.log-panel.minimized:hover {
+  background: #0a0a0a;
+}
+
+/* --- HEADER LOG --- */
+.log-header {
+  padding: 10px 15px;
+  background: #1a1a1a;
+  border-bottom: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Judul kiri - Tombol kanan */
+  height: 50px;
+  min-width: 350px; /* Jaga agar isi tidak gepeng saat transisi */
+  transition: all 0.3s;
+}
+
+/* Penyesuaian Header saat Minimize */
+.log-panel.minimized .log-header {
+  justify-content: center; /* Paksa tombol ke tengah */
+  padding: 10px 0;
+  background: #000;
+  border-bottom: none;
+}
+
+#log-title {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  transition: opacity 0.2s;
+  color: #fff;
+}
+
+.log-panel.minimized #log-title {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* --- TOMBOL TOGGLE (MINIMIZE/MAXIMIZE) --- */
+.btn-toggle-log {
+  background: #333;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-family: inherit;
+  font-size: 0.75rem;
+  transition: all 0.2s;
+  min-width: 35px;
+  text-align: center;
+}
+
+.btn-toggle-log:hover {
+  background: #00ff00;
+  color: #000;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+/* --- AREA ISI LOG --- */
+.log-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  min-width: 350px; /* Jaga agar teks tidak 'patah' saat transisi lebar */
+  background-image: linear-gradient(rgba(0, 255, 0, 0.05) 50%, transparent 50%);
+  background-size: 100% 4px; /* Efek scanline terminal */
+}
+
+.log-panel.minimized .log-content {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* --- STYLE PER BARIS TEKS --- */
+.log-line {
+  margin-bottom: 6px;
+  word-break: break-all;
+  border-left: 2px solid transparent;
+  padding-left: 8px;
+}
+
+.log-line.info {
+  color: #00d4ff;
+} /* Biru */
+.log-line.success {
+  color: #00ff00;
+} /* Hijau */
+.log-line.warn {
+  color: #ffff00;
+} /* Kuning */
+.log-line.err {
+  color: #ff4d4d;
+} /* Merah */
+
+/* Scrollbar khusus untuk Log Panel */
+.log-content::-webkit-scrollbar {
+  width: 4px;
+}
+.log-content::-webkit-scrollbar-thumb {
+  background: #333;
+}
+.log-content::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Animasi sederhana saat teks muncul */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.log-line:last-child {
+  animation: blink 0.8s infinite;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
