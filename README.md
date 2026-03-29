@@ -1,19 +1,17 @@
 ---
-title: {{title}}
-emoji: {{emoji}}
-colorFrom: {{colorFrom}}
-colorTo: {{colorTo}}
-sdk: {{sdk}}
-sdk_version: "{{sdkVersion}}"
-{{#pythonVersion}}
-python_version: "{{pythonVersion}}"
-{{/pythonVersion}}
+title: ReiiLabs AI Writer
+emoji: 🤖
+colorFrom: blue
+colorTo: purple
+sdk: docker
 app_file: app.py
 pinned: false
 ---
 
-# ReiiLabs AI Writter
+# ReiiLabs AI Writer
 
 AI Article Generator powered by OpenRouter API.
 
-Users can input their own API key and generate article titles and content directly from the interface.
+Users can input their own API key and generate article titles or articles directly from the interface.
+
+Repository: https://github.com/YCShimarin/Article-Generator-by-AI
