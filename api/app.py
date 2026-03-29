@@ -1,13 +1,20 @@
+from fileinput import filename
 import os, json, requests, time, re, random
 from flask import Flask, render_template, request, jsonify, send_from_directory, Response, stream_with_context
 from datetime import datetime
+from pathlib import Path
 
-app = Flask(__name__)
+BASE_DIR = Path(__file__).resolve().parent.parent
 
+app = Flask(
+    __name__,
+    template_folder=str(BASE_DIR / "templates"),
+    static_folder=str(BASE_DIR / "static")
+)
 # --- KONFIGURASI ---
-OUTPUT_DIR = "output"
-LOG_DIR = "logs"
-PROMPT_DIR = "prompts"
+OUTPUT_DIR = BASE_DIR / "output"
+LOG_DIR = BASE_DIR / "logs"
+PROMPT_DIR = BASE_DIR / "prompts"
 FALLBACK_MODEL = "stepfun/step-3.5-flash:free"
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
@@ -17,7 +24,7 @@ for d in [OUTPUT_DIR, LOG_DIR, PROMPT_DIR]:
 
 # --- UTILS (DIADAPTASI DARI KODEMU) ---
 def load_prompt_file(name, default=""):
-    path = os.path.join(PROMPT_DIR, name)
+    path = PROMPT_DIR / name
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f: return f.read()
     return default
@@ -136,7 +143,7 @@ def sync_archive():
 
 @app.route('/output/<path:filename>')
 def serve_output(filename):
-    return send_from_directory(OUTPUT_DIR, filename)
+    return send_from_directory(str(OUTPUT_DIR), filename)
 
 @app.route('/generate-stream')
 def generate_stream():
