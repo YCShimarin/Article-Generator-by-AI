@@ -37,6 +37,10 @@ firebase-debug.log
 .DS_Store
 Thumbs.db
 
+Dockerfile
+.dockerignore
+
+
 # Editor
 .vscode/
 .idea/
