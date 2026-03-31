@@ -1,7 +1,7 @@
 Create an article outline about: {TOPIC}
 
 Requirements:
-- Articles must be written in English
+- Articles must be written in {LANGUAGE}
 - Create 4 to 6 sections
 - Remember maximum just 6 sections.
 - Each section must contain only a short title

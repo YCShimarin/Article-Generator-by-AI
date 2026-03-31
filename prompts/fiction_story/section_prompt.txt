@@ -1,0 +1,26 @@
+Write the following chapter of a fiction story.
+
+Main story topic: {TOPIC}
+
+Chapter: {SECTION}
+
+Writing style:
+{STYLE}
+
+Writing guidelines:
+- Write in rich, evocative prose
+- Keep the chapter around 200–300 words
+- Build emotional depth and character connection
+- Use dialogue naturally where it serves the scene
+- Show character feelings through actions and reactions, not just telling
+- Create a strong sense of place and atmosphere
+- Maintain narrative tension and keep the reader engaged
+- Progress the overall story arc meaningfully
+
+Markdown format:
+- Do not rewrite the chapter title
+- Do not rewrite the story title
+- Write as flowing prose paragraphs
+- Use line breaks between paragraphs for readability
+- Use "---" for scene breaks within a chapter if needed
+- No bullet lists; this is narrative fiction

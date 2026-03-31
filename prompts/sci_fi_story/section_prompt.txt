@@ -1,0 +1,24 @@
+Write the following chapter of a science fiction story.
+
+Main story topic: {TOPIC}
+
+Chapter: {SECTION}
+
+Writing style:
+{STYLE}
+
+Writing guidelines:
+- Write in vivid, immersive prose
+- Keep the chapter around 200–300 words
+- Build atmosphere with sensory details: sights, sounds, textures, smells
+- Develop character emotions and internal monologue
+- Blend futuristic or speculative scientific concepts naturally into the narrative
+- Avoid info-dumping; show the world through character experience
+- End the chapter with a hook or sense of forward momentum
+
+Markdown format:
+- Do not rewrite the chapter title
+- Do not rewrite the story title
+- Write as flowing prose paragraphs
+- Use line breaks between paragraphs for readability
+- No bullet lists; this is narrative fiction

@@ -1,0 +1,26 @@
+Write the following section of a tech blog article.
+
+Main topic: {TOPIC}
+
+Section: {SECTION}
+
+Writing style:
+{STYLE}
+
+Writing guidelines:
+- Write in a friendly, conversational yet informative tone
+- Keep the text around 120–180 words
+- Use clear, jargon-light language accessible to tech enthusiasts
+- Include practical examples, real-world use cases, or quick tips
+- Keep sentences punchy and engaging — no walls of text
+- Use "you" and active voice to directly address the reader
+- End with a thought, insight, or forward-looking statement when appropriate
+
+Markdown format:
+- Do not rewrite the section title
+- Do not rewrite the article title
+- Use normal paragraphs
+- Use bullet lists for tips, steps, or comparisons — keep lists short and scannable
+- Use **bold** for key terms or emphasis
+- Use inline code backticks for technical terms, commands, or code snippets
+- Keep the Markdown clean and blog-friendly

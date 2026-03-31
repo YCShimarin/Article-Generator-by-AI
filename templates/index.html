@@ -1,123 +1,138 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI Tech-Writer - ReiiLabs Portfolio</title>
-    <link
-      rel="icon"
-      href="{{ url_for('static', filename='img/favicon.png') }}"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/tokyo-night-dark.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/style.css') }}"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/highlight.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
-  </head>
 
-  <body>
-    <aside class="sidebar">
-      <div class="sidebar-header">
-        <h2>
-          <a
-            href="https://reiilabs.web.app/"
-            style="color: white; text-decoration: none"
-            >&lt;&lt; ReiiLABS vA.1</a
-          >
-        </h2>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Tech-Writer - ReiiLabs Portfolio</title>
+  <link rel="icon" href="{{ url_for('static', filename='img/favicon.png') }}" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/tokyo-night-dark.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/highlight.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
 
-      <div class="search-box">
-        <label>Search Archive</label>
-        <input id="search" type="text" placeholder="Type to filter..." />
-      </div>
+<body>
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h2>
+        <a href="https://reiilabs.web.app/" style="color: white; text-decoration: none">&lt;&lt; WritterLabs v1.3</a>
+      </h2>
+    </div>
 
-      <div id="article-list" class="article-list"></div>
+    <div class="search-box">
+      <label>Search Archive</label>
+      <input id="search" type="text" placeholder="Type to filter..." />
+    </div>
 
-      <div style="padding: 15px">
-        <button
-          class="btn-secondary"
-          style="width: 100%"
-          onclick="loadArticles()"
-        >
-          ↻ REFRESH LIST
-        </button>
-      </div>
-    </aside>
+    <div id="article-list" class="article-list"></div>
 
-    <main class="main-content">
-      <section class="generator-panel">
+    <div style="padding: 15px">
+      <button class="btn-secondary" style="width: 100%" onclick="loadArticles()">
+        ↻ REFRESH LIST
+      </button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <header class="top-nav">
+      <button class="btn-toggle-engine" onclick="toggleGenerator()">🔌 TOGGLE_ENGINE</button>
+      <div id="active-mode-display" style="color: white;">MODE: SCIENCE | LANG: EN</div>
+    </header>
+
+    <section id="generator-panel" class="generator-panel collapsed">
+      <div class="config-row">
         <div class="input-group">
-          <label>API Configuration</label>
-          <input
-            id="token"
-            type="password"
-            placeholder="OpenRouter Token (sk-...)"
-          />
-          <input
-            id="model"
-            type="text"
-            placeholder="Model (e.g. google/gemma-3-2b-it:free)"
-          />
+          <label>🔑 API TOKEN</label>
+          <input id="token" type="password" placeholder="sk-..." />
         </div>
-
         <div class="input-group">
-          <label>Article Queue</label>
-          <textarea
-            id="titles"
-            placeholder="Enter titles (one per line)..."
-          ></textarea>
+          <label>🤖 MODEL</label>
+          <input id="model" type="text" placeholder="model-id" />
+        </div>
+        <div class="input-group">
+          <label>📝 MODE</label>
+          <select id="mode-select" class="mode-select">
+            <option value="">⏳ LOADING...</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label>🌐 LANG</label>
+          <select id="lang-select" class="mode-select">
+            <option value="English">English (EN)</option>
+            <option value="Indonesian">Indonesian (ID)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="config-row">
+        <div class="input-group" style="flex: 2;">
+          <label>💡 BRAINSTORM (KEYWORD)</label>
+          <input id="keyword" type="text" placeholder="e.g. Quantum Computing" />
+        </div>
+        <div class="button-area" style="width: auto; justify-content: flex-end; padding-top: 22px;">
+          <button class="btn-secondary" onclick="suggestTopics()">✨ SUGGEST_3_TOPICS</button>
+        </div>
+      </div>
+
+      <div class="action-row">
+        <div class="input-group queue-group">
+          <label>📜 ARTICLE QUEUE</label>
+          <textarea id="titles" placeholder="Enter titles (one per line)..."></textarea>
         </div>
 
-        <div class="action-area">
-          <button class="btn-primary">EXECUTE GENERATION</button>
-          <div id="status-bar">Flask Backend Ready...</div>
-          <p style="font-size: 10px; color: #222">
-            *your API token is safe because it is never stored in plain text.
-          </p>
+        <div class="button-area" style="gap: 5px;">
+          <button class="btn-primary" id="execute-btn">⚡ EXECUTE_GENERATOR</button>
+          <button class="btn-danger" id="stop-btn" style="display: none;" onclick="stopGeneration()">🛑 STOP_GENERATION</button>
+          <div id="status-bar">SYSTEM: ONLINE</div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="preview" class="viewer-area">
+    <section id="preview" class="viewer-area">
+      <div class="viewer-header" id="viewer-header" style="display: none;">
+        <div class="export-tools">
+          <button class="btn-export" onclick="copyToClipboard()">📋 COPY</button>
+          <div class="divider"></div>
+          <button class="btn-export" onclick="exportArticle('pdf')">📕 PDF</button>
+          <button class="btn-export" onclick="exportArticle('docx')">📘 DOCX</button>
+          <button class="btn-export" onclick="exportArticle('md')">📗 MD</button>
+        </div>
+      </div>
+      <div id="preview-content">
         <div style="text-align: center; color: #999; margin-top: 100px">
           <h1>_DOCUMENT_VIEWER [FLASK]</h1>
           <p>Enter parameters above or select an article from the sidebar.</p>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <aside class="log-panel" id="log-panel">
-      <div class="log-header">
-        <span id="log-title" style="transition: opacity 0.3s">SYSTEM_LOG</span>
-        <button
-          class="btn-toggle-log"
-          id="toggle-btn"
-          onclick="
+    <!-- Article Stats Overlay (Moved outside to be fixed) -->
+    <div id="article-stats" class="article-stats" style="display: none;">
+      <span id="stat-words">0 WORDS</span>
+      <span class="stat-sep">|</span>
+      <span id="stat-time">0 MIN READ</span>
+    </div>
+  </main>
+
+  <aside class="log-panel" id="log-panel">
+    <div class="log-header">
+      <span id="log-title">WRITTERLABS LOGS</span>
+      <button class="btn-toggle-log" id="toggle-btn" onclick="
             event.stopPropagation();
             toggleLog();
-          "
-        >
-          _MINIMIZE
-        </button>
-      </div>
-      <div id="log-content" class="log-content"></div>
-    </aside>
+          ">
+        _MINIMIZE
+      </button>
+    </div>
+    <div id="log-content" class="log-content"></div>
+  </aside>
 
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
-  </body>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
 </html>

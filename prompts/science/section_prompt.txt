@@ -1,0 +1,36 @@
+Write the following section of a scientific article.
+
+Main topic: {TOPIC}
+
+Section: {SECTION}
+
+Writing style:
+{STYLE}
+
+Writing guidelines:
+- Use clear, academic {LANGUAGE}
+- Keep the text around 150–200 words
+- Use structured paragraphs
+- Avoid repetition
+- Focus only on this section's content
+- Use precise scientific terminology where appropriate
+- Provide concrete examples or analogies when helpful
+
+If there are mathematical, physical, chemical, or engineering concepts:
+- Display formulas using LaTeX format
+- Inline equations use $...$
+- Block equations use:
+
+$$
+formula
+$$
+
+- Always explain the meaning and units of each variable in the formula
+- Show derivations or key steps where relevant
+
+Markdown format:
+- Do not rewrite the section title
+- Do not rewrite the article title
+- Use normal paragraphs
+- Use bullet lists or numbered steps if applicable
+- Keep the Markdown structure clean and readable

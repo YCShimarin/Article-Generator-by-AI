@@ -1,0 +1,16 @@
+Create a science fiction story outline about: {TOPIC}
+
+Requirements:
+- Story must be written in {LANGUAGE}
+- Create 4 to 6 chapters or story acts
+- Maximum 6 chapters
+- Each chapter/act must have a short, evocative title
+- Do not use numbering
+- Do not write the story title
+- Do not add explanations or descriptions
+- One chapter title per line
+- Build a clear story arc: opening, rising tension, climax, resolution
+- Titles should hint at plot progression and atmosphere
+
+Output format:
+Only list the chapter/act titles, one per line.

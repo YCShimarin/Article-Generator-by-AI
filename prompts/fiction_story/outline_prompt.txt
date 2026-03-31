@@ -1,0 +1,16 @@
+Create a fiction story outline about: {TOPIC}
+
+Requirements:
+- Story must be written in {LANGUAGE}
+- Create 4 to 6 chapters or scenes
+- Maximum 6 chapters
+- Each chapter must have a short, atmospheric title
+- Do not use numbering
+- Do not write the story title
+- Do not add explanations or descriptions
+- One chapter title per line
+- Ensure a compelling narrative arc: introduction, conflict, development, climax, resolution
+- Titles should evoke emotion and atmosphere
+
+Output format:
+Only list the chapter titles, one per line.

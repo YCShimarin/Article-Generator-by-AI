@@ -1,0 +1,12 @@
+Tech blog article for a general tech audience.
+
+Writing style:
+- Friendly, direct, and conversational
+- Accessible to enthusiasts without deep expertise
+- Practical focus — real examples, tools, tips
+- Energetic and engaging without being over-hyped
+- Short sentences and clear structure
+- Reader addressed directly using "you"
+- Key terms highlighted but explained simply
+
+Tone: Enthusiastic, helpful, approachable

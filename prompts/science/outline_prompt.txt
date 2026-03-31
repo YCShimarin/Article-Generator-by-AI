@@ -1,0 +1,17 @@
+Create a scientific article outline about: {TOPIC}
+
+Requirements:
+- Article must be written in {LANGUAGE}
+- Create 4 to 6 sections
+- Maximum 6 sections
+- Each section must contain only a short, informative title
+- Do not use numbering
+- Do not write the article title
+- Do not add explanations or descriptions
+- One section per line
+- Avoid repeating sections
+- Use clear, academic-style section titles
+- Include sections that naturally accommodate mathematical or physical concepts
+
+Output format:
+Only list the section titles, one per line.

@@ -1,0 +1,13 @@
+Scientific and academic article.
+
+Writing style:
+- Precise, formal, and evidence-based
+- Written for educated readers and students
+- Uses accurate scientific terminology
+- Logical and structured argumentation
+- Equations and formulas presented with LaTeX
+- Variables explained clearly with units
+- Avoids vague or ambiguous language
+- Cites concepts clearly even without formal references
+
+Tone: Academic, rigorous, objective

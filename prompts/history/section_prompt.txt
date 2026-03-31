@@ -1,0 +1,25 @@
+Write the following section of a historical article.
+
+Main topic: {TOPIC}
+
+Section: {SECTION}
+
+Writing style:
+{STYLE}
+
+Writing guidelines:
+- Write in clear, narrative-driven {LANGUAGE}
+- Keep the text around 150–200 words
+- Blend factual information with storytelling to make history engaging
+- Reference key figures, dates, and places with context
+- Explain the significance of events — not just what happened, but why it mattered
+- Use cause-and-effect language to show historical connections
+- Maintain chronological or thematic coherence within the section
+
+Markdown format:
+- Do not rewrite the section title
+- Do not rewrite the article title
+- Use normal paragraphs
+- Use bullet lists only for listing key figures, dates, or events
+- Use **bold** for names of important people, places, or events on first mention
+- Keep the Markdown structure clean and readable

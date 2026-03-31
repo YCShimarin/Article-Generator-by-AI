@@ -1,0 +1,16 @@
+Create a historical article outline about: {TOPIC}
+
+Requirements:
+- Article must be written in {LANGUAGE}
+- Create 4 to 6 sections
+- Maximum 6 sections
+- Each section must have a short, descriptive title
+- Do not use numbering
+- Do not write the article title
+- Do not add explanations or descriptions
+- One section per line
+- Use chronological or thematic structure
+- Titles should reflect historical periods, events, or pivotal moments
+
+Output format:
+Only list the section titles, one per line.

@@ -9,7 +9,7 @@ Writing style:
 
 Writing guidelines:
 
-- Use clear and informative English
+- Use clear and informative {LANGUAGE}
 - Keep the text around 120–180 words
 - Use neat paragraphs
 - Avoid repetition
