@@ -4,17 +4,24 @@ FROM python:3.12-slim
 # Set working directory
 WORKDIR /app
 
-# Copy requirements & install
+# Install compiler dan dependency cairo
+RUN apt-get update && apt-get install -y \
+    gcc \
+    libcairo2-dev \
+    pkg-config \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements
 COPY requirements.txt .
+
+# Install python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy semua file repo
+# Copy semua file project
 COPY . .
 
-# Set environment variable (opsional)
+# Environment variable
 ENV FLASK_APP=app.py
 
-# Jalankan app dengan gunicorn di port 7860
-# --bind 0.0.0.0:7860 supaya HF Spaces bisa detect
-# --workers 1 cukup untuk Free tier
+# Jalankan server
 CMD ["gunicorn", "--bind", "0.0.0.0:7860", "app:app"]
