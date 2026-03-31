@@ -320,10 +320,10 @@ def generate_stream():
                 yield f"data: {json.dumps({'msg': '🔍 Finalizing: Generating SEO Meta-Tags...', 'type': 'warn'})}\n\n"
                 seo_meta = generate_seo_metadata(token, model, topic, full_article, lang=lang)
                 
-                # STEP 3: SAVE
+                # STEP 3: SAVE 
                 duration = int(time.time() - start_time_article)
                 words = count_words(full_article)
-                metadata = f"> **Metadata**\n> - Model: {model}\n> - Mode: {mode_label}\n> - Time: {duration}s\n> - Words: {words}\n\n"
+                metadata = f"> **AI Generated Metadata**\n> - Model: {model}\n> - Mode: {mode_label}\n> - Time: {duration}s\n> - Words: {words}\n\n"
                 
                 with open(os.path.join(OUTPUT_DIR, current_filename), "w", encoding="utf-8") as f:
                     f.write(metadata + full_article + "\n\n---\n" + seo_meta)
